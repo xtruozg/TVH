@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-i18n="meta.title">Trần Văn Hưng — Thiết kế nội thất 3D</title>
+  <meta name="description" data-i18n-attr="content:meta.desc" content="Hồ sơ năng lực Trần Văn Hưng — Kiến trúc sư nội thất & chuyên gia diễn họa 3D." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,500;0,700;0,800;1,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#top" class="logo" aria-label="Về đầu trang" data-i18n-attr="aria-label:footer.top.aria">
+        <svg class="logo__mark" viewBox="0 0 40 40" aria-hidden="true">
+          <circle cx="20" cy="12" r="8" /><circle cx="20" cy="28" r="8" />
+          <circle cx="12" cy="20" r="8" /><circle cx="28" cy="20" r="8" />
+        </svg>
+        <span>vituallyhome24h</span>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="#about" data-i18n="nav.about">Giới thiệu</a>
+        <a href="#services" data-i18n="nav.services">Dịch vụ</a>
+        <a href="#projects" data-i18n="nav.projects">Dự án</a>
+        <a href="#process" data-i18n="nav.process">Quy trình</a>
+        <a href="#contact" class="btn btn--sm" data-i18n="nav.contact">Liên hệ</a>
+      </nav>
+      <div class="header__actions">
+        <div class="lang" role="group" aria-label="Ngôn ngữ / Language">
+          <button type="button" class="lang__btn" data-lang="vi" aria-pressed="true">VI</button>
+          <button type="button" class="lang__btn" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <button class="burger" id="burger" aria-label="Mở menu" data-i18n-attr="aria-label:nav.menu" aria-expanded="false">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__text">
+          <p class="eyebrow reveal">Interior Designer · 3D Visualizer</p>
+          <h1 class="hero__title reveal">Trần<br /><span>Văn Hưng</span></h1>
+          <p class="hero__lead reveal" data-i18n="hero.lead">
+            Kiến trúc sư nội thất và chuyên gia diễn họa 3D. Tôi biến ý tưởng thành những không gian
+            sống tinh tế — được dựng hình, chiếu sáng và hoàn thiện chân thực đến từng chất liệu
+            trước khi viên gạch đầu tiên được đặt xuống.
+          </p>
+          <div class="hero__cta reveal">
+            <a href="#projects" class="btn" data-i18n="hero.cta1">Xem dự án</a>
+            <a href="#contact" class="btn btn--ghost" data-i18n="hero.cta2">Đặt lịch tư vấn</a>
+          </div>
+          <p class="hero__note reveal" data-i18n="hero.note">Kiến tạo không gian &amp; định hướng thẩm mỹ — Hồ sơ năng lực 2025</p>
+        </div>
+
+        <div class="hero__visual reveal">
+          <div class="hero__frame">
+            <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80"
+                 alt="Phối cảnh 3D phòng khách hiện đại" data-i18n-attr="alt:alt.hero" />
+          </div>
+          <div class="hero__badge">
+            <strong>10+</strong>
+            <span data-i18n="hero.badge">năm kinh nghiệm<br />thiết kế &amp; diễn họa</span>
+          </div>
+          <svg class="hero__ornament" viewBox="0 0 40 40" aria-hidden="true">
+            <circle cx="20" cy="12" r="8" /><circle cx="20" cy="28" r="8" />
+            <circle cx="12" cy="20" r="8" /><circle cx="28" cy="20" r="8" />
+          </svg>
+        </div>
+      </div>
+
+      <div class="container">
+        <ul class="stats">
+          <li class="reveal"><strong data-count="180" data-suffix="+">0</strong><span data-i18n="stats.projects">Dự án hoàn thành</span></li>
+          <li class="reveal"><strong data-count="2500" data-suffix="+">0</strong><span data-i18n="stats.renders">Hình ảnh render</span></li>
+          <li class="reveal"><strong data-count="95" data-suffix="%">0</strong><span data-i18n="stats.clients">Khách hàng quay lại</span></li>
+          <li class="reveal"><strong data-count="12">0</strong><span data-i18n="stats.awards">Giải thưởng &amp; đề cử</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section about" id="about">
+      <div class="container about__grid">
+        <div class="about__images reveal">
+          <img class="about__img about__img--a"
+               src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=80"
+               alt="Không gian phòng khách tối giản" data-i18n-attr="alt:alt.about1" loading="lazy" />
+          <img class="about__img about__img--b"
+               src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=900&q=80"
+               alt="Chi tiết nội thất phòng ngủ" data-i18n-attr="alt:alt.about2" loading="lazy" />
+        </div>
+
+        <div class="about__content">
+          <p class="eyebrow reveal" data-i18n="about.eyebrow">01 — Về bản thân</p>
+          <h2 class="section__title reveal" data-i18n="about.title">Thiết kế bằng cảm xúc, hoàn thiện bằng kỹ thuật</h2>
+          <p class="reveal" data-i18n="about.p1">
+            Tôi có hơn 10 năm kinh nghiệm trong thiết kế nội thất nhà ở, căn hộ cao cấp và không gian
+            thương mại. Mỗi dự án bắt đầu từ việc lắng nghe phong cách sống của gia chủ, sau đó được
+            hiện thực hoá bằng mô hình 3D, ánh sáng vật lý và vật liệu chuẩn xác.
+          </p>
+          <p class="reveal" data-i18n="about.p2">
+            Các dự án trước đây bao gồm thiết kế và diễn họa cho nhiều chủ đầu tư, showroom và
+            studio kiến trúc.
+          </p>
+
+          <ol class="timeline">
+            <li class="reveal">
+              <span class="timeline__year">2019 — 2025</span>
+              <div>
+                <h3 data-i18n="about.co1">Studio thiết kế nội thất</h3>
+                <p data-i18n="about.job1">Trưởng nhóm thiết kế nội thất &amp; diễn họa 3D</p>
+              </div>
+            </li>
+            <li class="reveal">
+              <span class="timeline__year">2017 — 2019</span>
+              <div>
+                <h3>Hưng Architects</h3>
+                <p data-i18n="about.job2">Kiến trúc sư nội thất, phụ trách căn hộ cao cấp</p>
+              </div>
+            </li>
+            <li class="reveal">
+              <span class="timeline__year">2014 — 2016</span>
+              <div>
+                <h3 data-i18n="about.co3">Công ty sản xuất nội thất</h3>
+                <p data-i18n="about.job3">Họa viên 3D — dựng hình &amp; bóc tách nội thất</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MISSION ============ -->
+    <section class="mission">
+      <div class="mission__bg" aria-hidden="true">
+        <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1800&q=80" alt="" loading="lazy" />
+      </div>
+      <div class="container mission__inner">
+        <p class="eyebrow reveal" data-i18n="mission.eyebrow">Sứ mệnh</p>
+        <blockquote class="mission__quote reveal" data-i18n="mission.quote">
+          “Giúp kết nối <em>ý tưởng</em> của bạn với <em>không gian sống</em> thực tế.”
+        </blockquote>
+        <p class="mission__sub reveal" data-i18n="mission.sub">
+          Nhìn thấy ngôi nhà của bạn — chân thực đến từng tia nắng — trước khi bắt đầu thi công.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow reveal" data-i18n="services.eyebrow">02 — Công việc</p>
+          <h2 class="section__title reveal" data-i18n="services.title">Dịch vụ tôi cung cấp</h2>
+        </div>
+
+        <div class="services">
+          <article class="service reveal">
+            <div class="service__img">
+              <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=80"
+                   alt="Thiết kế nội thất nhà ở" data-i18n-attr="alt:services.s1.title" loading="lazy" />
+            </div>
+            <span class="service__num">01.</span>
+            <h3 data-i18n="services.s1.title">Thiết kế nội thất nhà ở</h3>
+            <p data-i18n="services.s1.text">Căn hộ, nhà phố, biệt thự — từ concept, mặt bằng công năng đến hồ sơ kỹ thuật thi công.</p>
+          </article>
+
+          <article class="service reveal">
+            <div class="service__img">
+              <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80"
+                   alt="Diễn họa phối cảnh 3D" data-i18n-attr="alt:services.s2.title" loading="lazy" />
+            </div>
+            <span class="service__num">02.</span>
+            <h3 data-i18n="services.s2.title">Diễn họa 3D phối cảnh</h3>
+            <p data-i18n="services.s2.text">Render photorealistic nội – ngoại thất, ánh sáng ngày/đêm, video walkthrough &amp; ảnh 360°.</p>
+          </article>
+
+          <article class="service reveal">
+            <div class="service__img">
+              <img src="https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=900&q=80"
+                   alt="Nội thất thương mại" data-i18n-attr="alt:services.s3.title" loading="lazy" />
+            </div>
+            <span class="service__num">03.</span>
+            <h3 data-i18n="services.s3.title">Nội thất thương mại</h3>
+            <p data-i18n="services.s3.text">Showroom, café, văn phòng, khách sạn — không gian mang đậm bản sắc thương hiệu.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section section--alt" id="projects">
+      <div class="container">
+
+        <!-- Project 01 -->
+        <div class="project">
+          <div class="project__info">
+            <p class="eyebrow reveal" data-i18n="projects.eyebrow">Dự án nổi bật</p>
+            <h2 class="project__title reveal"><span>01.</span> Penthouse<br />Sky Garden</h2>
+            <p class="reveal" data-i18n="projects.p1.text">
+              Căn penthouse 280m² theo phong cách Modern Luxury. Bảng vật liệu đá marble, gỗ óc chó và
+              kim loại đồng xước được diễn họa chân thực để chủ nhà duyệt trước khi thi công.
+            </p>
+            <ul class="tags reveal">
+              <li>3ds Max</li><li>Corona</li><li>280 m²</li><li data-i18n="projects.p1.place">Q.2, TP.HCM</li>
+            </ul>
+          </div>
+
+          <!-- Before / After: clay render vs final render -->
+          <div class="compare reveal" id="compare">
+            <img class="compare__img" src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1400&q=80" alt="Render hoàn thiện" data-i18n-attr="alt:alt.final" />
+            <div class="compare__clay">
+              <img class="compare__img" src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1400&q=80" alt="Mô hình clay render" data-i18n-attr="alt:alt.clay" />
+            </div>
+            <div class="compare__handle" aria-hidden="true"><span></span></div>
+            <span class="compare__label compare__label--l">Clay model</span>
+            <span class="compare__label compare__label--r">Final render</span>
+            <input type="range" min="0" max="100" value="50" class="compare__range" aria-label="Kéo để so sánh mô hình và ảnh render" data-i18n-attr="aria-label:alt.compare" />
+          </div>
+        </div>
+
+        <!-- Project 02 -->
+        <div class="project project--reverse">
+          <div class="project__info">
+            <h2 class="project__title reveal" data-i18n="projects.p2.title"><span>02.</span> Biệt thự<br />Wabi Sabi</h2>
+            <p class="reveal" data-i18n="projects.p2.text">
+              Không gian mộc mạc, tĩnh tại với tông màu đất, vữa thô và ánh sáng tự nhiên. Bộ hồ sơ gồm
+              24 góc render và một video walkthrough 90 giây.
+            </p>
+            <ul class="tags reveal">
+              <li>SketchUp</li><li>V-Ray</li><li>420 m²</li><li data-i18n="projects.p2.place">Đà Lạt</li>
+            </ul>
+          </div>
+          <div class="gallery gallery--two reveal">
+            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=900&q=80" alt="Phòng ngủ Wabi Sabi" data-i18n-attr="alt:alt.wabi1" loading="lazy" />
+            <img src="https://images.unsplash.com/photo-1556912173-3bb406ef7e77?auto=format&fit=crop&w=900&q=80" alt="Bếp và phòng ăn" data-i18n-attr="alt:alt.wabi2" loading="lazy" />
+          </div>
+        </div>
+
+        <!-- Project 03 -->
+        <div class="project">
+          <div class="project__info">
+            <h2 class="project__title reveal"><span>03.</span> Concept<br />&amp; Moodboard</h2>
+            <p class="reveal" data-i18n="projects.p3.text">
+              Tuyển tập các phương án concept cho căn hộ, café và showroom — từ moodboard vật liệu
+              đến phối cảnh hoàn chỉnh.
+            </p>
+          </div>
+          <div class="gallery gallery--grid reveal">
+            <figure><img src="https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?auto=format&fit=crop&w=700&q=80" alt="Phòng khách Japandi" data-i18n-attr="alt:alt.g1" loading="lazy" /><figcaption>a.01 — Japandi</figcaption></figure>
+            <figure><img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=700&q=80" alt="Căn hộ Scandinavian" data-i18n-attr="alt:alt.g2" loading="lazy" /><figcaption>a.02 — Scandinavian</figcaption></figure>
+            <figure><img src="https://images.unsplash.com/photo-1615874959474-d609969a20ed?auto=format&fit=crop&w=700&q=80" alt="Phòng ngủ Indochine" data-i18n-attr="alt:alt.g3" loading="lazy" /><figcaption>a.03 — Indochine</figcaption></figure>
+            <figure><img src="https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?auto=format&fit=crop&w=700&q=80" alt="Không gian Modern Luxury" data-i18n-attr="alt:alt.g4" loading="lazy" /><figcaption>a.04 — Modern Luxury</figcaption></figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TOOLS ============ -->
+    <section class="tools">
+      <div class="marquee" aria-label="Phần mềm sử dụng" data-i18n-attr="aria-label:tools.aria">
+        <div class="marquee__track">
+          <span>3ds Max</span><i>✦</i><span>Corona Render</span><i>✦</i><span>V-Ray</span><i>✦</i>
+          <span>SketchUp</span><i>✦</i><span>AutoCAD</span><i>✦</i><span>Lumion</span><i>✦</i>
+          <span>Enscape</span><i>✦</i><span>Photoshop</span><i>✦</i>
+          <span aria-hidden="true">3ds Max</span><i>✦</i><span aria-hidden="true">Corona Render</span><i>✦</i><span aria-hidden="true">V-Ray</span><i>✦</i>
+          <span aria-hidden="true">SketchUp</span><i>✦</i><span aria-hidden="true">AutoCAD</span><i>✦</i><span aria-hidden="true">Lumion</span><i>✦</i>
+          <span aria-hidden="true">Enscape</span><i>✦</i><span aria-hidden="true">Photoshop</span><i>✦</i>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROCESS ============ -->
+    <section class="section" id="process">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow reveal" data-i18n="process.eyebrow">03 — Quy trình</p>
+          <h2 class="section__title reveal" data-i18n="process.title">Từ ý tưởng đến không gian</h2>
+        </div>
+        <ol class="process">
+          <li class="reveal"><span>01</span><h3 data-i18n="process.s1.title">Khảo sát &amp; tư vấn</h3><p data-i18n="process.s1.text">Lắng nghe nhu cầu, đo đạc hiện trạng và thống nhất ngân sách.</p></li>
+          <li class="reveal"><span>02</span><h3 data-i18n="process.s2.title">Concept &amp; mặt bằng</h3><p data-i18n="process.s2.text">Moodboard phong cách, bố trí công năng và bảng vật liệu.</p></li>
+          <li class="reveal"><span>03</span><h3 data-i18n="process.s3.title">Diễn họa 3D</h3><p data-i18n="process.s3.text">Dựng hình, ánh sáng, render chân thực — chỉnh sửa đến khi hài lòng.</p></li>
+          <li class="reveal"><span>04</span><h3 data-i18n="process.s4.title">Hồ sơ &amp; giám sát</h3><p data-i18n="process.s4.text">Bản vẽ kỹ thuật chi tiết và đồng hành cùng đội thi công.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section contact" id="contact">
+      <div class="container contact__grid">
+        <div>
+          <p class="eyebrow reveal" data-i18n="contact.eyebrow">04 — Liên hệ</p>
+          <h2 class="contact__title reveal" data-i18n="contact.title">Thông tin<br />liên hệ</h2>
+          <p class="reveal contact__lead" data-i18n="contact.lead">Bạn có một không gian cần được đánh thức? Hãy gọi điện hoặc gửi email — tôi sẽ phản hồi trong vòng 24 giờ.</p>
+        </div>
+        <dl class="contact__list">
+          <div class="reveal"><dt data-i18n="contact.address">Địa chỉ</dt><dd data-i18n="contact.addressValue">Hà Nội</dd></div>
+          <div class="reveal"><dt data-i18n="contact.phone">Điện thoại</dt><dd><a href="tel:+84398946681">0398 946 681</a></dd></div>
+          <div class="reveal"><dt>Email</dt><dd><a href="mailto:virtuallyhome24h@gmail.com">virtuallyhome24h@gmail.com</a></dd></div>
+        </dl>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#top" class="logo">
+        <svg class="logo__mark" viewBox="0 0 40 40" aria-hidden="true">
+          <circle cx="20" cy="12" r="8" /><circle cx="20" cy="28" r="8" />
+          <circle cx="12" cy="20" r="8" /><circle cx="28" cy="20" r="8" />
+        </svg>
+        <span>vituallyhome24h</span>
+      </a>
+      <p>© <span id="year">2025</span> Trần Văn Hưng. Interior &amp; 3D Visualization.</p>
+      <a href="#top" class="footer__top" data-i18n="footer.top">Lên đầu trang ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
